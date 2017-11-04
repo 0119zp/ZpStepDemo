@@ -52,7 +52,7 @@ public class ZpStepActivity extends Activity {
 
         CustomerOrderNode node1 = new CustomerOrderNode();
         node1.setNodeName("订单");
-        node1.setNodeDesc("订单啦订单啦订单啦订单啦订单啦订单啦订单啦订单啦订单啦");
+        node1.setNodeDesc("接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦接单啦订单啦订单啦订单啦订单啦订单啦订单啦订单啦订单啦订单啦");
 
         CustomerOrderNode node3 = new CustomerOrderNode();
         node3.setNodeName("运输");
