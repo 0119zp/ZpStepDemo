@@ -5,17 +5,14 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <Button
+    <TextView
+        android:id="@+id/tx_action"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="横"
-        android:onClick="setHeng"/>
+        android:layout_height="wrap_content" />
 
-    <Button
+    <TextView
+        android:id="@+id/tx_action_time"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="竖"
-        android:onClick="setShu"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
-

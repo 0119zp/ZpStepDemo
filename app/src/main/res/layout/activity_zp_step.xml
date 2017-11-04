@@ -5,17 +5,9 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <Button
+    <zp.com.zpstepdemo.view.ZpStepView
+        android:id="@+id/zp_step"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="横"
-        android:onClick="setHeng"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="竖"
-        android:onClick="setShu"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
-

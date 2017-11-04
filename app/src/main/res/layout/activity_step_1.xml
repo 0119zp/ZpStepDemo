@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <zp.com.zpstepdemo.view.StepLineaLayout
+        android:id="@+id/underline_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="152dp"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:complete_line_color="#6281c2"
+        app:complete_point_color="#6281c2"
+        app:line_dynamic_dimen="8dp"
+        app:line_margin_side="25dp"
+        app:point_size="4dp"/>
+
+</LinearLayout>
